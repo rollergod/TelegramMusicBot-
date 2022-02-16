@@ -63,6 +63,7 @@ namespace YoutubeExplodeTest
             string videolURL = e.Message.Text.Substring(Constants.COMMAND_MUSIC.Length);
 
             var video = await youtubeClient.Videos.GetAsync(videolURL);
+
             Console.WriteLine($"Название: {video.Title}");
             Console.WriteLine($"Продолжительность: {video.Duration}");
             Console.WriteLine($"Автор: {video.Author}");
