@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+    <PackageReference Include="YoutubeExplode" Version="6.0.8" />
+    <PackageReference Include="YoutubeExplode.Converter" Version="6.0.8" />
+  </ItemGroup>
+
+</Project>
